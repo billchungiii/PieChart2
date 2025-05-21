@@ -13,6 +13,20 @@ namespace PieChart2
 {
     public partial class Form1 : Form
     {
+        // 建議的 PieChart 調色盤
+        private static List<Color> PieChartPalette = new List<Color>
+                       {
+                           Color.FromArgb(0x4E79A7), // 藍
+                           Color.FromArgb(0xF28E2B), // 橘
+                           Color.FromArgb(0xE15759), // 紅
+                           Color.FromArgb(0x76B7B2), // 青綠
+                           Color.FromArgb(0x59A14F), // 綠
+                           Color.FromArgb(0xEDC948), // 黃
+                           Color.FromArgb(0xB07AA1), // 紫
+                           Color.FromArgb(0xFF9DA7), // 粉紅
+                           Color.FromArgb(0x9C755F), // 咖啡
+                           Color.FromArgb(0xBAB0AC)  // 灰
+                       };
         private List<PieItem> _pieItems;
         public Form1()
         {
